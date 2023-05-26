@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.loginPage">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -36,6 +36,17 @@
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font></Button>
+                  <Label fx:id="locationName" layoutX="238.0" layoutY="63.0" prefHeight="27.0" prefWidth="88.0" text="Location">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="69.0" layoutY="317.0" prefHeight="17.0" prefWidth="82.0" text="Location">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="227.0" layoutY="318.0" text="Here" />
                </children>
             </Pane>
          </children>

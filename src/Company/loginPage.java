@@ -1,7 +1,6 @@
 package Company;
 
 import javafx.fxml.Initializable;
-import javafx.*;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Label;
 import javafx.fxml.FXML;
