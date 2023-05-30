@@ -20,4 +20,14 @@ public class firstLevelDivision {
     public int getCountry_ID(){
         return country_ID;
     }
+
+    public void setDivisionID(){
+        this.divisionID = divisionID;
+    }
+    public void setDivisionName(){
+        this.divisionName = divisionName;
+    }
+    public void setCountry_ID(){
+        this.country_ID = country_ID;
+    }
 }

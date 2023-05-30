@@ -7,21 +7,21 @@ public class Appointments {
     private String apptDescription;
     private String apptLocation;
     private String apptType;
-    private LocalDateTime start;
-    private LocalDateTime end;
+    private LocalDateTime apptStart;
+    private LocalDateTime apptEnd;
     public int customerID;
     public int userID;
     public int contactID;
 
     public Appointments(int apptID,String apptTitle, String apptDescription, String apptLocation, String apptType,
-    LocalDateTime start, LocalDateTime end, int customerID, int userID, int contactID){
+    LocalDateTime apptStart, LocalDateTime apptEnd, int customerID, int userID, int contactID){
         this.apptID = apptID;
         this.apptTitle = apptTitle;
         this.apptDescription = apptDescription;
         this.apptLocation = apptLocation;
         this.apptType = apptType;
-        this.start = start;
-        this.end = end;
+        this.apptStart = apptStart;
+        this.apptEnd = apptEnd;
         this.customerID = customerID;
         this.userID = userID;
         this.contactID = contactID;
@@ -40,18 +40,18 @@ public class Appointments {
     }
 
     public String getApptLocation(){
-        return apptTitle;
+        return apptLocation;
     }
     public String getApptType(){
         return apptType;
     }
 
     public LocalDateTime getStart(){
-        return start;
+        return apptStart;
     }
 
     public LocalDateTime getEnd(){
-        return end;
+        return apptEnd;
     }
 
     public int getCustomerID(){
@@ -64,6 +64,46 @@ public class Appointments {
 
     public int getContactID(){
         return contactID;
+    }
+
+
+    //setter
+    public void setApptID(){
+        this.apptID = apptID;
+    }
+    public void setApptTitle(){
+        this.apptTitle = apptTitle;
+    }
+
+    public void setApptDescription(){
+        this.apptDescription = apptDescription;
+    }
+
+    public void setApptLocation(){
+        this.apptLocation = apptLocation;
+    }
+    public void setApptType(){
+        this.apptType = apptType;
+    }
+
+    public void setStart(){
+        this.apptStart = apptStart;
+    }
+
+    public void setEnd(){
+        this.apptEnd = apptEnd;
+    }
+
+    public void setCustomerID(){
+        this.customerID = customerID;
+    }
+
+    public void setUserID(){
+        this.userID = userID;
+    }
+
+    public void setContactID(){
+        this.contactID = contactID;
     }
 
 }

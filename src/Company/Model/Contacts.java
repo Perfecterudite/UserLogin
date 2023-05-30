@@ -20,4 +20,14 @@ public class Contacts {
     public String getContactEmail(){
         return contactEmail;
     }
+
+    public void setContactID(){
+        this.contactID = contactID;
+    }
+    public void setContactName(){
+        this.contactName = contactName;
+    }
+    public void setContactEmail(){
+        this.contactEmail = contactEmail;
+    }
 }

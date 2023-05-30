@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.modCustomer">
+<Pane fx:id="updateCustomerID" prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.modCustomer">
    <children>
       <Label layoutX="53.0" layoutY="48.0" prefHeight="26.0" prefWidth="160.0" text="Modify Customer">
          <font>
@@ -21,14 +21,14 @@
       <Label layoutX="60.0" layoutY="298.0" text="Country" />
       <Label layoutX="60.0" layoutY="347.0" text="State/Province" />
       <Label layoutX="60.0" layoutY="397.0" text="Postal Code" />
-      <TextField layoutX="166.0" layoutY="111.0" />
-      <TextField layoutX="166.0" layoutY="153.0" />
-      <TextField layoutX="166.0" layoutY="207.0" />
-      <ComboBox layoutX="165.0" layoutY="294.0" prefWidth="150.0" />
-      <ComboBox layoutX="165.0" layoutY="343.0" prefWidth="150.0" />
-      <TextField layoutX="166.0" layoutY="393.0" />
-      <TextField layoutX="166.0" layoutY="250.0" />
-      <Button layoutX="166.0" layoutY="451.0" mnemonicParsing="false" text="Save" />
-      <Button layoutX="331.0" layoutY="451.0" mnemonicParsing="false" text="Cancel" />
+      <TextField disable="true" layoutX="166.0" layoutY="111.0" promptText="auto-generated" />
+      <TextField fx:id="updateName" layoutX="166.0" layoutY="153.0" />
+      <TextField fx:id="updateAddress" layoutX="166.0" layoutY="207.0" />
+      <ComboBox fx:id="updateCountry" layoutX="165.0" layoutY="294.0" prefWidth="150.0" />
+      <ComboBox fx:id="updateState" layoutX="165.0" layoutY="343.0" prefWidth="150.0" />
+      <TextField fx:id="updatePostal" layoutX="166.0" layoutY="393.0" />
+      <TextField fx:id="updateNumber" layoutX="166.0" layoutY="250.0" />
+      <Button fx:id="updateSave" layoutX="166.0" layoutY="451.0" mnemonicParsing="false" onAction="#updateSaveOnClick" text="Save" />
+      <Button fx:id="updateCancel" layoutX="331.0" layoutY="451.0" mnemonicParsing="false" onAction="#updateCancelOnClick" text="Cancel" />
    </children>
 </Pane>
