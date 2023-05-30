@@ -1,4 +1,23 @@
 package Company.Model;
 
 public class firstLevelDivision {
+    private int divisionID;
+    private String divisionName;
+    private int country_ID;
+
+    public firstLevelDivision(int divisionID,String divisionName, int country_ID){
+        this.divisionID = divisionID;
+        this.divisionName = divisionName;
+        this.country_ID = country_ID;
+    }
+
+    public int getDivisionID(){
+        return divisionID;
+    }
+    public String getDivisionName(){
+        return divisionName;
+    }
+    public int getCountry_ID(){
+        return country_ID;
+    }
 }

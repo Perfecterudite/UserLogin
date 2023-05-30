@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="668.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeScreen">
+<AnchorPane prefHeight="668.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.homeScreen">
    <children>
       <TableView layoutX="22.0" layoutY="111.0" prefHeight="146.0" prefWidth="807.0">
         <columns>

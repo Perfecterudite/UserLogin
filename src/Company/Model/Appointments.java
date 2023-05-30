@@ -1,4 +1,69 @@
 package Company.Model;
+import java.time.LocalDateTime;
 
 public class Appointments {
+    private int apptID;
+    private String apptTitle;
+    private String apptDescription;
+    private String apptLocation;
+    private String apptType;
+    private LocalDateTime start;
+    private LocalDateTime end;
+    public int customerID;
+    public int userID;
+    public int contactID;
+
+    public Appointments(int apptID,String apptTitle, String apptDescription, String apptLocation, String apptType,
+    LocalDateTime start, LocalDateTime end, int customerID, int userID, int contactID){
+        this.apptID = apptID;
+        this.apptTitle = apptTitle;
+        this.apptDescription = apptDescription;
+        this.apptLocation = apptLocation;
+        this.apptType = apptType;
+        this.start = start;
+        this.end = end;
+        this.customerID = customerID;
+        this.userID = userID;
+        this.contactID = contactID;
+
+    }
+
+    public int getApptID(){
+        return apptID;
+    }
+    public String getApptTitle(){
+        return apptTitle;
+    }
+
+    public String getApptDescription(){
+        return apptDescription;
+    }
+
+    public String getApptLocation(){
+        return apptTitle;
+    }
+    public String getApptType(){
+        return apptType;
+    }
+
+    public LocalDateTime getStart(){
+        return start;
+    }
+
+    public LocalDateTime getEnd(){
+        return end;
+    }
+
+    public int getCustomerID(){
+        return customerID;
+    }
+
+    public int getUserID(){
+        return userID;
+    }
+
+    public int getContactID(){
+        return contactID;
+    }
+
 }
