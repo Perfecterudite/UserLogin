@@ -38,6 +38,7 @@ public abstract class LoginPage implements Initializable{
     public void Initialize(URL Location, ResourceBundle resourceBundle){
 
     }
+    //Login
     public void loginClick(ActionEvent actionEvent){
 
         String inputUsername = username.getText();
