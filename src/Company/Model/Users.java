@@ -20,4 +20,15 @@ public class Users {
     public String getUserPassword(){
         return userPassword;
     }
+
+    //Setter
+    public void setUserID(){
+        this.userID = userID;
+    }
+    public void setUserName(){
+        this.userName = userName;
+    }
+    public void setUserPassword(){
+        this.userPassword = userPassword;
+    }
 }

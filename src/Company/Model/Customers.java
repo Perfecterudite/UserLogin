@@ -44,4 +44,26 @@ public class Customers {
         return divisionID;
     }
 
+    public void setCustomerID(){
+        this.customerID = customerID;
+    }
+    public void setCustomerName(){
+        this.customerName = customerName;
+    }
+
+    public void setCustomerAddress(){
+        this.customerAddress = customerAddress;
+    }
+
+    public void setCustomerPostalCode(){
+        this.customerPostalCode = customerPostalCode;
+    }
+    public void setCustomerPhoneNumber(){
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
+    public void setDivisionID(){
+        this.divisionID = divisionID;
+    }
+
 }

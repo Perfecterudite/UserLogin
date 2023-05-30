@@ -1,11 +1,12 @@
 package Company;
 
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.PasswordField;
 import java.io.IOException;
 import java.net.URL;
@@ -13,6 +14,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 
@@ -28,20 +30,23 @@ import javafx.stage.Stage;
 import javafx.scene.control.Label;
 import javafx.fxml.FXML;
 
-public abstract class loginPage implements Initializable{
+public class UpdateCustomer {
 
-    @FXML private TextField username;
-    @FXML private PasswordField password;
-    @FXML private Label locationName;
-    @FXML private Button loginBtn;
+    @FXML private TextField updateCustomerID;
+    @FXML private TextField updateName;
+    @FXML private TextField updateAddress;
+    @FXML private TextField updatePostal;
+    @FXML private TextField updateNumber;
+    @FXML private ComboBox<String> updateCountry;
+    @FXML private ComboBox<String> updateState;
+    @FXML private Button updateSave;
+    @FXML private Button updateCancel;
 
-    public void Initialize(URL Location, ResourceBundle resourceBundle){
+    public void updateSaveOnClick(ActionEvent actionEvent){
 
     }
-    public void loginClick(ActionEvent actionEvent){
 
-        String inputUsername = username.getText();
-        String inputPassword = password.getText();
+    public void updateCancelOnClick(ActionEvent actionEvent){
 
     }
 }
