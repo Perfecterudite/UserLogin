@@ -32,7 +32,7 @@ import javafx.scene.control.Label;
 import javafx.fxml.FXML;
 
 
-public class AddCustomer {
+public class addCustomer {
     @FXML private TextField customerID;
     @FXML private TextField customerName;
     @FXML private TextField address;
@@ -44,6 +44,7 @@ public class AddCustomer {
     @FXML private Button cancelCustomer;
 
     public void saveOnClick(ActionEvent actionEvent){
+        //This is testing something
 
     }
 

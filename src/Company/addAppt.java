@@ -30,7 +30,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Label;
 import javafx.fxml.FXML;
 
-public class AddAppt {
+public class addAppt {
     @FXML private TextField Appointment_ID;
     @FXML private TextField title;
     @FXML private TextField location;

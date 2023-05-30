@@ -7,7 +7,8 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="updateCustomerID" prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.UpdateCustomer">
+
+<Pane prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Company.UpdateCustomer">
    <children>
       <Label layoutX="53.0" layoutY="48.0" prefHeight="26.0" prefWidth="160.0" text="Modify Customer">
          <font>
