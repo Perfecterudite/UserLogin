@@ -8,16 +8,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
-      <library name="javafx-fxml">
+      <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11/javafx-fxml-11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11/javafx-fxml-11-win.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11/javafx-controls-11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11/javafx-controls-11-win.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11/javafx-base-11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11/javafx-base-11-win.jar!/" />
+          <root url="jar://$PATH_TO_FX$/javafx.base.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -26,7 +19,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/openjfx-17.0.7_windows-x64_bin-sdk/javafx-sdk-17.0.7/lib/javafx.base.jar!/" />
+          <root url="jar://$PATH_TO_FX$/javafx.controls.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -35,7 +28,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/openjfx-17.0.7_windows-x64_bin-sdk/javafx-sdk-17.0.7/lib/javafx.controls.jar!/" />
+          <root url="jar://$PATH_TO_FX$/javafx.fxml.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -44,16 +37,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/openjfx-17.0.7_windows-x64_bin-sdk/javafx-sdk-17.0.7/lib/javafx.fxml.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/openjfx-17.0.7_windows-x64_bin-sdk/javafx-sdk-17.0.7/lib/javafx.graphics.jar!/" />
+          <root url="jar://$PATH_TO_FX$/javafx.graphics.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -63,6 +47,42 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$PATH_TO_FX$/javafx.media.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$PATH_TO_FX$/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$PATH_TO_FX$/javafx.web.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$PATH_TO_FX$/javafx-swt.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

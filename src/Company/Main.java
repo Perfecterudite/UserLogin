@@ -10,16 +10,20 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/reports.fxml"));
         primaryStage.setTitle("Fortnight Scheduler");
         primaryStage.setScene(new Scene(root, 800, 575));
         primaryStage.show();
+
+        //fxmlLoader.setRoot(new AnchorPane());
+
     }
 
 
     public static void main(String[] args) {
-        DatabaseConn.startConnection();
+        //DatabaseConn.startConnection();
         launch(args);
-        DatabaseConn.endConnection();
+        //DatabaseConn.endConnection();
     }
+
 }

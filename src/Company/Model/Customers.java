@@ -8,11 +8,14 @@ public class Customers {
     private String customerAddress;
     private String customerPostalCode;
     private String customerPhoneNumber;
+    private String divisionName;
+    private int customerCountryID;
     private int divisionID;
 
 
+
     public Customers(int customerID,String customerName, String customerAddress, String customerPostalCode, String customerPhoneNumber,
-                         int divisionID){
+                         String divisionName, int customerCountryID, int divisionID){
         this.customerID = customerID;
         this.customerName = customerName;
         this.customerAddress = customerAddress;
@@ -39,10 +42,17 @@ public class Customers {
     public String getCustomerPhoneNumber(){
         return customerPhoneNumber;
     }
+    public String getDivisionName() {
+        return divisionName;
+    }
+    public int getCustomerCountryID(){
+        return customerCountryID;
+    }
 
     public int getDivisionID(){
         return divisionID;
     }
+
 
     public void setCustomerID(){
         this.customerID = customerID;
@@ -60,6 +70,14 @@ public class Customers {
     }
     public void setCustomerPhoneNumber(){
         this.customerPhoneNumber = customerPhoneNumber;
+    }
+
+    public void setDivisionName(){
+        this.divisionName = divisionName;
+    }
+
+    public void setCustomerCountryID(){
+        this.customerCountryID = customerCountryID;
     }
 
     public void setDivisionID(){
